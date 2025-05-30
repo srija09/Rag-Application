@@ -8,7 +8,7 @@ function App() {
   const handleKeyPress = async (e) => {
     if (e.key === "Enter" && question.trim() !== "") {
       try {
-        const response = await fetch("http://localhost:5000/chat", {
+        const response = await fetch("https://rag-application-mqo0.onrender.com/chat", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
