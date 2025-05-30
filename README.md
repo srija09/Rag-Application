@@ -1,3 +1,14 @@
+This project is deployed on Vercel. Access with the below link. 
+https://rag-application-two.vercel.app/
+
+## customers DB present right now for you to query and test
+(1, 'Sahil', 'Male', 'Mumbai'),
+(2, 'Tanvi', 'Female', 'Pune'),
+(3, 'Aniket', 'Male', 'Gurgaon'),
+(4, 'Tanuja', 'Female', 'Pune'),
+(5, 'Srija', 'Female', 'Hyderabad'),
+(6, 'Anurag', 'Male', 'Hyderabad'),
+
 ## LLM-Powered Natural Language to SQL Chatbot
 
 This project is a full-stack chatbot application that converts natural language queries into SQL commands internally and respond with tables as output using a Gemini API. 
