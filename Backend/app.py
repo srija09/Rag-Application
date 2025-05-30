@@ -8,7 +8,7 @@ import os
 
 import mysql.connector as mysql
 app = Flask(__name__)
-allowed_origins = ["http://localhost:3000"]
+allowed_origins = ["http://localhost:3000", "https://rag-application-two.vercel.app"]
 CORS(app, resources={r"/*": {"origins": allowed_origins}}, supports_credentials=True)
 
 
