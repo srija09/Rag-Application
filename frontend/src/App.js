@@ -39,6 +39,18 @@ function App() {
         />
       </div>
 
+  <div className="reference-data">
+        <h3>Sample Data (Reference):</h3>
+        <pre>
+          (1, 'Sahil', 'Male', 'Mumbai'){'\n'}
+          (2, 'Tanvi', 'Female', 'Pune'){'\n'}
+          (3, 'Aniket', 'Male', 'Gurgaon'){'\n'}
+          (4, 'Tanuja', 'Female', 'Pune'){'\n'}
+          (5, 'Srija', 'Female', 'Hyderabad'){'\n'}
+          (6, 'Anurag', 'Male', 'Hyderabad')
+        </pre>
+      </div>
+
       
       {results.length > 0 ? (
         <div className="table-container">
