@@ -61,3 +61,21 @@ th {
   font-style: italic;
   text-align: center;
 }
+
+
+.reference-data {
+  width: 60%;
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Courier New', monospace;
+  color: #333;
+  white-space: pre-wrap;
+}
+.reference-data h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #222;
+}
